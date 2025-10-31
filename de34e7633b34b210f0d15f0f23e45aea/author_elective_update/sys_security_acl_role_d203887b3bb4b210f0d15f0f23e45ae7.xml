@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-31 15:38:43</sys_created_on>
+        <sys_id>d203887b3bb4b210f0d15f0f23e45ae7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1834695_risk_a_0_risk_response.x_1834695_risk_a_0.admin</sys_name>
+        <sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0">de34e7633b34b210f0d15f0f23e45aea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope>
+        <sys_security_acl display_value="x_1834695_risk_a_0_risk_response">8603887b3bb4b210f0d15f0f23e45ae2</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d203887b3bb4b210f0d15f0f23e45ae7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-31 15:38:43</sys_updated_on>
+        <sys_user_role display_value="x_1834695_risk_a_0.admin" name="x_1834695_risk_a_0.admin">3a342b633b34b210f0d15f0f23e45a02</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</application>
+        <file_path/>
+        <instance_id>54f46e2033db66947c42c7bb9d5c7b24</instance_id>
+        <instance_name>dev355227</instance_name>
+        <name>sys_security_acl_role_d203887b3bb4b210f0d15f0f23e45ae7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-31 15:38:43</sys_created_on><sys_id>d203887b3bb4b210f0d15f0f23e45ae7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1834695_risk_a_0_risk_response.x_1834695_risk_a_0.admin</sys_name><sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0">de34e7633b34b210f0d15f0f23e45aea</sys_package><sys_policy/><sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope><sys_security_acl display_value="x_1834695_risk_a_0_risk_response">8603887b3bb4b210f0d15f0f23e45ae2</sys_security_acl><sys_update_name>sys_security_acl_role_d203887b3bb4b210f0d15f0f23e45ae7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-31 15:38:43</sys_updated_on><sys_user_role display_value="x_1834695_risk_a_0.admin" name="x_1834695_risk_a_0.admin">3a342b633b34b210f0d15f0f23e45a02</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>352605286</payload_hash>
+        <record_name>x_1834695_risk_a_0_risk_response.x_1834695_risk_a_0.admin</record_name>
+        <reverted_from/>
+        <source>6a34e7633b34b210f0d15f0f23e45aef</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-31 15:38:43</sys_created_on>
+        <sys_id>5203887b3bb4b210f0d15f0f23e45af8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a3aebccc60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-31 15:38:43</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>d603887b4ab4b210e7e3531f36c25bf7</update_guid>
+        <update_guid_history>d603887b4ab4b210e7e3531f36c25bf7:352605286</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1834695_risk_a_0_risk_response.x_1834695_risk_a_0.admin">cdac9cfb3b38b210f0d15f0f23e45ae9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-31 17:30:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>8aa3c28f7ce94d38a03b6a8b6940e240</sys_id>
+        <sys_metadata>d203887b3bb4b210f0d15f0f23e45ae7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1834695_risk_a_0_risk_response.x_1834695_risk_a_0.admin</sys_name>
+        <sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0">de34e7633b34b210f0d15f0f23e45aea</sys_package>
+        <sys_parent display_value="">8603887b3bb4b210f0d15f0f23e45ae2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope>
+        <sys_scope_delete display_value="">89fdb173925f477d9e2d96d2fe3f1219</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_d203887b3bb4b210f0d15f0f23e45ae7</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_d203887b3bb4b210f0d15f0f23e45ae7">5203887b3bb4b210f0d15f0f23e45af8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-31 17:30:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

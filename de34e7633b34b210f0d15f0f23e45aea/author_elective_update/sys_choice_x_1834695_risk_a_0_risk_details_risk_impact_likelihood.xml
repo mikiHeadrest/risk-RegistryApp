@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="risk_impact_likelihood" table="x_1834695_risk_a_0_risk_details" version="3">
+        <sys_choice_set action="DELETE">
+            <element>risk_impact_likelihood</element>
+            <name>x_1834695_risk_a_0_risk_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 15:48:38</sys_created_on>
+            <sys_id>8635083f3bb4b210f0d15f0f23e45a09</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>risk_impact_likelihood</sys_name>
+            <sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0">de34e7633b34b210f0d15f0f23e45aea</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope>
+            <sys_update_name>sys_choice_x_1834695_risk_a_0_risk_details_risk_impact_likelihood</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 15:51:43</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</application>
+        <file_path/>
+        <instance_id>54f46e2033db66947c42c7bb9d5c7b24</instance_id>
+        <instance_name>dev355227</instance_name>
+        <name>sys_choice_x_1834695_risk_a_0_risk_details_risk_impact_likelihood</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="risk_impact_likelihood" table="x_1834695_risk_a_0_risk_details" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>risk_impact_likelihood</element><name>x_1834695_risk_a_0_risk_details</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-31 15:48:38</sys_created_on><sys_id>8635083f3bb4b210f0d15f0f23e45a09</sys_id><sys_mod_count>1</sys_mod_count><sys_name>risk_impact_likelihood</sys_name><sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0">de34e7633b34b210f0d15f0f23e45aea</sys_package><sys_policy/><sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope><sys_update_name>sys_choice_x_1834695_risk_a_0_risk_details_risk_impact_likelihood</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-31 15:51:43</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-1614268020</payload_hash>
+        <record_name>risk_details.risk_impact_likelihood</record_name>
+        <reverted_from/>
+        <source>6a34e7633b34b210f0d15f0f23e45aef</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-31 15:52:06</sys_created_on>
+        <sys_id>961604bf3bb4b210f0d15f0f23e45aa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a3af80fa50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-31 15:52:06</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>5e1604bf63b4b210a104018c6d9f28a1</update_guid>
+        <update_guid_history>5e1604bf63b4b210a104018c6d9f28a1:-1614268020</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-31 15:52:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>186e2acd70f742ac986ce1e3fa23ed64</sys_id>
+        <sys_metadata>8635083f3bb4b210f0d15f0f23e45a09</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>risk_impact_likelihood</sys_name>
+        <sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0">de34e7633b34b210f0d15f0f23e45aea</sys_package>
+        <sys_parent display_value="x_1834695_risk_a_0_risk_details">97646f633b34b210f0d15f0f23e45a1e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope>
+        <sys_scope_delete display_value="">89fdb173925f477d9e2d96d2fe3f1219</sys_scope_delete>
+        <sys_update_name>sys_choice_x_1834695_risk_a_0_risk_details_risk_impact_likelihood</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_1834695_risk_a_0_risk_details_risk_impact_likelihood">961604bf3bb4b210f0d15f0f23e45aa2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-31 15:52:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

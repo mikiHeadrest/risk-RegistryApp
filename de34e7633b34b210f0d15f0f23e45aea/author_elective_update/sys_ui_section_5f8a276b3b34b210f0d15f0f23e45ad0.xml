@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="5f8a276b3b34b210f0d15f0f23e45ad0" sys_domain="global" table="x_1834695_risk_a_0_risk_subcategory" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 13:51:45</sys_created_on>
+            <sys_id>df8a276b3b34b210f0d15f0f23e45ad3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1834695_risk_a_0_risk_subcategory" sys_domain="global" view="Default view">5f8a276b3b34b210f0d15f0f23e45ad0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 13:51:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1834695_risk_a_0_risk_subcategory</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 13:51:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f8a276b3b34b210f0d15f0f23e45ad0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1834695_risk_a_0_risk_subcategory</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0">de34e7633b34b210f0d15f0f23e45aea</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope>
+            <sys_update_name>sys_ui_section_5f8a276b3b34b210f0d15f0f23e45ad0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 13:51:45</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</application>
+        <file_path/>
+        <instance_id>54f46e2033db66947c42c7bb9d5c7b24</instance_id>
+        <instance_name>dev355227</instance_name>
+        <name>sys_ui_section_5f8a276b3b34b210f0d15f0f23e45ad0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="5f8a276b3b34b210f0d15f0f23e45ad0" sys_domain="global" table="x_1834695_risk_a_0_risk_subcategory" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-31 13:51:45</sys_created_on><sys_id>df8a276b3b34b210f0d15f0f23e45ad3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1834695_risk_a_0_risk_subcategory" sys_domain="global" view="Default view">5f8a276b3b34b210f0d15f0f23e45ad0</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-31 13:51:45</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1834695_risk_a_0_risk_subcategory</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-31 13:51:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5f8a276b3b34b210f0d15f0f23e45ad0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1834695_risk_a_0_risk_subcategory</sys_name><sys_overrides/><sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0">de34e7633b34b210f0d15f0f23e45aea</sys_package><sys_policy/><sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope><sys_update_name>sys_ui_section_5f8a276b3b34b210f0d15f0f23e45ad0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-31 13:51:45</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1592433420</payload_hash>
+        <record_name>Risk Subcategory</record_name>
+        <reverted_from/>
+        <source>6a34e7633b34b210f0d15f0f23e45aef</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-31 13:51:45</sys_created_on>
+        <sys_id>db8a276b3b34b210f0d15f0f23e45ad5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a3a89de710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-31 13:51:45</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>538a276b3e34b2105ed8a6ff1b615cd5</update_guid>
+        <update_guid_history>538a276b3e34b2105ed8a6ff1b615cd5:1592433420,d78a276b3334b21032aa9bafdc3732d3:528631270</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-31 17:26:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>2fc39fba7eec402c8b991cc74ec01851</sys_id>
+        <sys_metadata>5f8a276b3b34b210f0d15f0f23e45ad0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1834695_risk_a_0_risk_subcategory</sys_name>
+        <sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0">de34e7633b34b210f0d15f0f23e45aea</sys_package>
+        <sys_parent display_value="">7e8a63ab3b34b210f0d15f0f23e45a6f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope>
+        <sys_scope_delete display_value="">89fdb173925f477d9e2d96d2fe3f1219</sys_scope_delete>
+        <sys_update_name>sys_ui_section_5f8a276b3b34b210f0d15f0f23e45ad0</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_5f8a276b3b34b210f0d15f0f23e45ad0">db8a276b3b34b210f0d15f0f23e45ad5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-31 17:26:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

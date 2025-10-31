@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1834695_risk_a_0_risk_details" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_1834695_risk_a_0_risk_details" element="NULL" name="x_1834695_risk_a_0_risk_details" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3b6423eb3b787210f0d15f0f23e45a21</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 13:25:01</sys_created_on>
+            <sys_id>3f646f633b34b210f0d15f0f23e45a94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 13:25:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_by</element>
+            <list_id display_value="x_1834695_risk_a_0_risk_details" element="NULL" name="x_1834695_risk_a_0_risk_details" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3b6423eb3b787210f0d15f0f23e45a21</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 13:25:01</sys_created_on>
+            <sys_id>37646f633b34b210f0d15f0f23e45a95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 13:25:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_1834695_risk_a_0_risk_details" element="NULL" name="x_1834695_risk_a_0_risk_details" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3b6423eb3b787210f0d15f0f23e45a21</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 13:25:01</sys_created_on>
+            <sys_id>3b646f633b34b210f0d15f0f23e45a95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 13:25:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="x_1834695_risk_a_0_risk_details" element="NULL" name="x_1834695_risk_a_0_risk_details" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3b6423eb3b787210f0d15f0f23e45a21</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 13:25:01</sys_created_on>
+            <sys_id>3f646f633b34b210f0d15f0f23e45a95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 13:25:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_mod_count</element>
+            <list_id display_value="x_1834695_risk_a_0_risk_details" element="NULL" name="x_1834695_risk_a_0_risk_details" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3b6423eb3b787210f0d15f0f23e45a21</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 13:25:01</sys_created_on>
+            <sys_id>33646f633b34b210f0d15f0f23e45a96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 13:25:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1834695_risk_a_0_risk_details</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 13:25:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3b6423eb3b787210f0d15f0f23e45a21</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1834695_risk_a_0_risk_details</sys_name>
+            <sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0">de34e7633b34b210f0d15f0f23e45aea</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope>
+            <sys_update_name>sys_ui_list_x_1834695_risk_a_0_risk_details_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 13:25:01</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

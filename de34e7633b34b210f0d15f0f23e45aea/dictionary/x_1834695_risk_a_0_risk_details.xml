@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5f646f633b34b210f0d15f0f23e45a1a" label="risk_details" max_length="40" name="x_1834695_risk_a_0_risk_details" type="collection">
+        <element label="Implementation Progress" max_length="38" name="implementation_progress" type="percent_complete"/>
+        <element choice="2" default="1" label="Impact" max_length="40" name="impact" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Effective" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Strong" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Weak" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Adequate" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Notes/Comments" max_length="200" name="notes_comments" type="string"/>
+        <element choice="1" label="RISK_CLASSIFICATION" max_length="40" name="risk_classification" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Business Continuity" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Vendor &amp; 3rd Party Risk" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Cybersecurity risk" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Customer Risk" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Physical Security Risk" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Compliance (audit)" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="Quality Risks" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Data Governance" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Financial Risk" sequence="8" value="9"/>
+            </choice>
+        </element>
+        <element choice="1" label="Risk Subcategory" max_length="40" name="risk_subcategory" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Non-Vulnerability" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Vulnerability" sequence="0" value="1"/>
+            </choice>
+        </element>
+        <element choice="2" default="1" label="Likelihood" max_length="40" name="likelihood" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Rare" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Unlikely" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Likely" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Very Likely" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element label="Business Impact" max_length="40" name="business_impact" type="string"/>
+        <element label="MITIGATION PLANS" max_length="40" name="mitigation_plans" type="string"/>
+        <element display="true" label="UID" max_length="40" name="uid" type="string"/>
+        <element label="NAME" max_length="40" name="name" type="string"/>
+        <element label="Framework Requirements" max_length="40" name="framework_requirements" type="string"/>
+        <element choice="2" label="R_RESPONSE" max_length="40" name="r_response" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Accept" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Monitor" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Mitigate (partially)" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Avoid (fully mitigate)" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Transfer" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="R_OWNER" max_length="32" name="r_owner" reference="sys_user" type="reference"/>
+        <element choice="1" label="Risk Status" max_length="40" name="risk_status" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Retired" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Identified" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Assessed" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Treatment approved" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Closed (temporary)" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element label="R_MANAGER" max_length="32" name="r_manager" reference="sys_user" type="reference"/>
+        <element label="DESCRIPTION" max_length="400" name="description" type="string"/>
+        <element formula="impact*likelihood" label="INH_RISK" max_length="32" name="inh_risk" type="integer" virtual="true" virtual_type="formula"/>
+        <index name="index">
+            <element name="r_manager"/>
+        </index>
+        <index name="index2">
+            <element name="r_owner"/>
+        </index>
+    </element>
+</database>

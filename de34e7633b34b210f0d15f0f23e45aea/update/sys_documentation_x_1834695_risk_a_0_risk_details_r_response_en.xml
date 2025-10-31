@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="r_response" label="R_RESPONSE" language="en" table="x_1834695_risk_a_0_risk_details">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>r_response</element>
+            <help/>
+            <hint/>
+            <label>R_RESPONSE</label>
+            <language>en</language>
+            <name>x_1834695_risk_a_0_risk_details</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-31 13:45:12</sys_created_on>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>R_RESPONSE</sys_name>
+            <sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0">de34e7633b34b210f0d15f0f23e45aea</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope>
+            <sys_update_name>sys_documentation_x_1834695_risk_a_0_risk_details_r_response_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-31 19:29:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

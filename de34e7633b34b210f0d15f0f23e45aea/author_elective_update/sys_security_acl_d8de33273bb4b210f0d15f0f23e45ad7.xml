@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Existing</local_or_existing>
+        <name>x_1834695_risk_a_0_risk_score</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-31 15:20:17</sys_created_on>
+        <sys_id>d8de33273bb4b210f0d15f0f23e45ad7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1834695_risk_a_0_risk_score</sys_name>
+        <sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0">de34e7633b34b210f0d15f0f23e45aea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope>
+        <sys_update_name>sys_security_acl_d8de33273bb4b210f0d15f0f23e45ad7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-31 15:20:17</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</application>
+        <file_path/>
+        <instance_id>54f46e2033db66947c42c7bb9d5c7b24</instance_id>
+        <instance_name>dev355227</instance_name>
+        <name>sys_security_acl_d8de33273bb4b210f0d15f0f23e45ad7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>x_1834695_risk_a_0_risk_score</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-31 15:20:17</sys_created_on><sys_id>d8de33273bb4b210f0d15f0f23e45ad7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1834695_risk_a_0_risk_score</sys_name><sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0">de34e7633b34b210f0d15f0f23e45aea</sys_package><sys_policy/><sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope><sys_update_name>sys_security_acl_d8de33273bb4b210f0d15f0f23e45ad7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-31 15:20:17</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>485187134</payload_hash>
+        <record_name>x_1834695_risk_a_0_risk_score</record_name>
+        <reverted_from/>
+        <source>6a34e7633b34b210f0d15f0f23e45aef</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-31 15:20:17</sys_created_on>
+        <sys_id>d0de33273bb4b210f0d15f0f23e45adc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a3adaedb50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-31 15:20:17</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>58de3327d4b4b210adb71becaef787db</update_guid>
+        <update_guid_history>58de3327d4b4b210adb71becaef787db:485187134</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-31 17:33:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>1c92d5fd99ba40289e0880cf4925f840</sys_id>
+        <sys_metadata>d8de33273bb4b210f0d15f0f23e45ad7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1834695_risk_a_0_risk_score</sys_name>
+        <sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0">de34e7633b34b210f0d15f0f23e45aea</sys_package>
+        <sys_parent display_value="">9bceffe33bb4b210f0d15f0f23e45a77</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope>
+        <sys_scope_delete display_value="">89fdb173925f477d9e2d96d2fe3f1219</sys_scope_delete>
+        <sys_update_name>sys_security_acl_d8de33273bb4b210f0d15f0f23e45ad7</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_d8de33273bb4b210f0d15f0f23e45ad7">d0de33273bb4b210f0d15f0f23e45adc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-31 17:33:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
