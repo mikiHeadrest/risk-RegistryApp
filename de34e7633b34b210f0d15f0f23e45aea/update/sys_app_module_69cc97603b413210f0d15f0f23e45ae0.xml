@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Risk Module">fd689fe83b013210f0d15f0f23e45a37</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>Here is a view of all the Risks registered</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>All Risks</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1834695_risk_a_0_risk_details</name>
+        <order>100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-03 15:47:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>69cc97603b413210f0d15f0f23e45ae0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Risks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0">de34e7633b34b210f0d15f0f23e45aea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope>
+        <sys_update_name>sys_app_module_69cc97603b413210f0d15f0f23e45ae0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-03 15:47:31</sys_updated_on>
+        <timeline_page/>
+        <title>All Risks</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
