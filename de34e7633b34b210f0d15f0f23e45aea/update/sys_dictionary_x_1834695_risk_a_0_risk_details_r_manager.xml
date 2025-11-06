@@ -8,7 +8,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>R_MANAGER</column_label>
+        <column_label>Risk Manager</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,7 +27,7 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="">glide_list</internal_type>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
         <name>x_1834695_risk_a_0_risk_details</name>
@@ -47,13 +47,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-31 13:45:13</sys_created_on>
-        <sys_name>R_MANAGER</sys_name>
+        <sys_name>Risk Manager</sys_name>
         <sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0">de34e7633b34b210f0d15f0f23e45aea</sys_package>
         <sys_policy/>
         <sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope>
         <sys_update_name>sys_dictionary_x_1834695_risk_a_0_risk_details_r_manager</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-03 15:53:29</sys_updated_on>
+        <sys_updated_on>2025-11-04 20:47:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

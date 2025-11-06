@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-04 16:42:15</sys_created_on>
+        <sys_id>00f778813b4d7210f0d15f0f23e45a18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>update_inhRisk.snc_internal</sys_name>
+        <sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0">de34e7633b34b210f0d15f0f23e45aea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope>
+        <sys_security_acl display_value="update_inhRisk">c8f7f4813b4d7210f0d15f0f23e45aa8</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_00f778813b4d7210f0d15f0f23e45a18</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-04 16:42:15</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

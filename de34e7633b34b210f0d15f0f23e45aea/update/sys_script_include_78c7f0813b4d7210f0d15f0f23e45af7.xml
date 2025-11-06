@@ -15,53 +15,62 @@ update_inhRisk.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
 	//Function that calculates the inh_risk value
 	updateInhRisk: function(){
-		gs.info('The script Include that gets the Inh_Risk value was updated');
-		
 		// In code pass int_impact / int_likelihood as parameters
 		// Here are the required parameters 
 		var impact  = this.getParameter('impact');
 		var likelihood = this.getParameter('likelihood');
 		
 		var int_inh_risk = impact * likelihood;
-		return int_inh_risk;
+
+		// I create a JSON object so that I can properly return the number
+		obj = {};
+		obj.int_risk = int_inh_risk;
+		gs.info('The script Include that gets the Inh_Risk value was executed! ' + JSON.stringify(obj));
+		return JSON.stringify(obj);
 	},
 
 	// Function that changes the inh_risk from a number to Text
 	getInhRiskString : function(){
-		var int_inh_risk = this.getParameter('intInhRisk');
+		var int_inh_risk = parseInt(this.getParameter('intInhRisk'));
+		// works!
 
-		var inh_risk = "";
 		switch(int_inh_risk){
-			case 1,2:
+			case 1: case 2:
 				inh_risk = "Low";
 			break;
-			case 3,4,6:
+			case 3: case 4: case 6:
 				inh_risk = "Medium";
 			break;
-			case 8,9:
+			case 8: case 9:
 				inh_risk = "High";
 			break;
-			case 12,16:
+			case 12: case 16:
 				inh_risk = "Critical";
 			break;
 		}
 		// End of the code that should be on a seperate file
-		return inh_risk;
+		
+		gs.info("The returned inh_risk must be :" + inh_risk);
+		obj = {};
+		obj.text_risk = inh_risk;
+
+		return JSON.stringify(obj);
 	},
 
     type: 'update_inhRisk'
-});]]></script>
+});
+]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-11-03 17:26:34</sys_created_on>
-        <sys_id>9396f7a03bc13210f0d15f0f23e45aa8</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_created_on>2025-11-04 16:42:14</sys_created_on>
+        <sys_id>78c7f0813b4d7210f0d15f0f23e45af7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>update_inhRisk</sys_name>
         <sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0">de34e7633b34b210f0d15f0f23e45aea</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope>
-        <sys_update_name>sys_script_include_9396f7a03bc13210f0d15f0f23e45aa8</sys_update_name>
+        <sys_update_name>sys_script_include_78c7f0813b4d7210f0d15f0f23e45af7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-03 21:02:44</sys_updated_on>
+        <sys_updated_on>2025-11-04 16:42:14</sys_updated_on>
     </sys_script_include>
 </record_update>

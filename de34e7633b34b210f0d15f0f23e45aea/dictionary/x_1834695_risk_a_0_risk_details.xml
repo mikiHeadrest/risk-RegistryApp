@@ -10,7 +10,7 @@
             </choice>
         </element>
         <element label="Notes/Comments" max_length="200" name="notes_comments" type="string"/>
-        <element choice="1" label="RISK_CLASSIFICATION" mandatory="true" max_length="40" name="risk_classification" type="integer">
+        <element choice="1" label="Risk Category" mandatory="true" max_length="40" name="risk_classification" type="integer">
             <choice>
                 <element inactive_on_update="false" label="Business Continuity" sequence="4" value="5"/>
                 <element inactive_on_update="false" label="Vendor &amp; 3rd Party Risk" sequence="5" value="6"/>
@@ -38,11 +38,11 @@
             </choice>
         </element>
         <element label="Business Impact" max_length="40" name="business_impact" type="string"/>
-        <element label="MITIGATION PLANS" mandatory="true" max_length="40" name="mitigation_plans" type="string"/>
+        <element label="Mitigation Controls" mandatory="true" max_length="40" name="mitigation_plans" type="string"/>
         <element display="true" label="UID" mandatory="true" max_length="40" name="uid" type="string"/>
-        <element label="NAME" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
         <element label="Framework Requirements" max_length="40" name="framework_requirements" type="string"/>
-        <element choice="2" label="R_RESPONSE" mandatory="true" max_length="40" name="r_response" type="integer">
+        <element choice="2" label="Risk Response" mandatory="true" max_length="40" name="r_response" type="integer">
             <choice>
                 <element inactive_on_update="false" label="Accept" sequence="3" value="4"/>
                 <element inactive_on_update="false" label="Monitor" sequence="4" value="5"/>
@@ -51,7 +51,8 @@
                 <element inactive_on_update="false" label="Transfer" sequence="2" value="3"/>
             </choice>
         </element>
-        <element label="R_OWNER" mandatory="true" max_length="32" name="r_owner" reference="sys_user" type="reference"/>
+        <element label="Risk Owner" max_length="32" name="r_owner" reference="sys_user" type="glide_list"/>
+        <element label="RES_RISK" mandatory="true" max_length="40" name="res_risk" read_only="true" type="string"/>
         <element choice="1" label="Risk Status" mandatory="true" max_length="40" name="risk_status" type="integer">
             <choice>
                 <element inactive_on_update="false" label="Retired" sequence="4" value="5"/>
@@ -61,9 +62,9 @@
                 <element inactive_on_update="false" label="Closed (temporary)" sequence="3" value="4"/>
             </choice>
         </element>
-        <element label="R_MANAGER" mandatory="true" max_length="32" name="r_manager" reference="sys_user" type="reference"/>
-        <element label="DESCRIPTION" mandatory="true" max_length="400" name="description" type="string"/>
-        <element choice="1" formula="impact*likelihood" label="INH_RISK" mandatory="true" max_length="32" name="inh_risk" read_only="true" type="string" virtual="true" virtual_type="formula">
+        <element label="Risk Manager" mandatory="true" max_length="32" name="r_manager" reference="sys_user" type="glide_list"/>
+        <element label="Description" mandatory="true" max_length="400" name="description" type="string"/>
+        <element choice="1" formula="impact*likelihood" label="Inherent Risk" mandatory="true" max_length="32" name="inh_risk" read_only="true" type="string" virtual="true" virtual_type="formula">
             <choice>
                 <element inactive_on_update="false" label="Critical" sequence="3" value="Critical"/>
                 <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>

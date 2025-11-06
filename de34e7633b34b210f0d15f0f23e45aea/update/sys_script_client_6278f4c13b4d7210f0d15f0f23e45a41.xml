@@ -3,30 +3,29 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description>Changes the value of the Inherent Risk based on the selected value on the "Impact" field.&#13;
-Doesn't allow to change the Field to none.</description>
-        <field>impact</field>
+        <description>Script that Updates the 'Inh_Risk' value depending on the chosen values on the 'Likelihood' or the 'Impact' fields. For more information on how this code works check the Risk Impact OnChange Client Script and the update_inhRisk Value.</description>
+        <field>likelihood</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Risk Impact OnChange</name>
+        <name>Risk Likelihood OnChange</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-   if (isLoading || newValue === '') { 
-	// signfica que ya hay un valor pre-cargado
-	if(newValue === ''){
-		//oldValue is always One??? why
-		g_form.setValue('impact',oldValue);
+   
+   var currentField = 'likelihood';
 
-		g_form.showFieldMsg('impact','You must not set this field to \'-- None -- \' ','error');
+   if (isLoading || newValue === '') { 
+	if(newValue === ''){
+	//significa que se quiere cambiar a un valor vacio
+		g_form.setValue(currentField,oldValue);
+
+		g_form.showFieldMsg(currentField,'You must not set this field to \'-- None -- \' ','error');
 
 		// Promises run asynchronously
 		var promise= new Promise(function(resolve,reject){
-			//As soon as it reaches either resolver or reject it should work a
 			setTimeout(solution, 2000);
 			function solution(){
-				g_form.hideFieldMsg('impact',true);
-				// g_form.showFieldMsg('impact','This function has executed sucessfully!');
+				g_form.hideFieldMsg(currentField,true);
 				resolve("resolved");
 			}
 			reject(new Error('Problem with timeout?...'));
@@ -37,30 +36,20 @@ Doesn't allow to change the Field to none.</description>
 		}catch(error){
 			// there was an error?
 		}
-		//old value is always one??
-		// Code could be run here 
+
 		return;
 	}
    }
    
-   // Calls the Script Include
    var ga_InhRisk = new GlideAjax('x_1834695_risk_a_0.update_inhRisk');
-
-   // We first call the method first
    ga_InhRisk.addParam('sysparm_name','updateInhRisk');
-
-   // Declares the value of the necesary params
    ga_InhRisk.addParam('impact',g_form.getValue('impact'));
    ga_InhRisk.addParam('likelihood', g_form.getValue('likelihood'));
    ga_InhRisk.getXMLAnswer(getResponse);
-   // XMLWait() is not supported on Local Scope apps, Global apps are welcome
-   // getXMLAnswer() returns the response with proper formatting
 
 	// Service Now opens another thread to manage synchronusly the rest of the code
 	function getResponse(response){
 		var int_risk = JSON.parse(response).int_risk; 
-		// The response returns as a JSON object so we have to parse and then set the value
-		//g_form.showFieldMsg('impact',"The value int_RISK has been updated to:" + int_risk); // test
 		
 		ga_InhRisk = new GlideAjax('x_1834695_risk_a_0.update_inhRisk');
 		ga_InhRisk.addParam('sysparm_name','getInhRiskString');
@@ -68,28 +57,25 @@ Doesn't allow to change the Field to none.</description>
 		ga_InhRisk.getXMLAnswer(setInhRisk);
 
 		function setInhRisk(response){
-			// g_form.showFieldMsg('impact','The text value of your inh_risk is:'+JSON.parse(response).text_risk);
-			
 			g_form.setValue('inh_risk',JSON.parse(response).text_risk);
 		}
 	}
-}
-]]></script>
+}]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-11-03 16:49:13</sys_created_on>
+        <sys_created_on>2025-11-04 18:05:47</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>1bfcafa43b813210f0d15f0f23e45aaa</sys_id>
-        <sys_mod_count>104</sys_mod_count>
-        <sys_name>Risk Impact OnChange</sys_name>
+        <sys_id>6278f4c13b4d7210f0d15f0f23e45a41</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Risk Likelihood OnChange</sys_name>
         <sys_overrides/>
         <sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0">de34e7633b34b210f0d15f0f23e45aea</sys_package>
         <sys_policy/>
         <sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope>
-        <sys_update_name>sys_script_client_1bfcafa43b813210f0d15f0f23e45aaa</sys_update_name>
+        <sys_update_name>sys_script_client_6278f4c13b4d7210f0d15f0f23e45a41</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-04 18:22:42</sys_updated_on>
+        <sys_updated_on>2025-11-04 18:25:11</sys_updated_on>
         <table>x_1834695_risk_a_0_risk_details</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

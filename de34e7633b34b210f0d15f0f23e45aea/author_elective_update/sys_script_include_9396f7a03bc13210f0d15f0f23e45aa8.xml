@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1834695_risk_a_0.update_inhRisk</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>update_inhRisk</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var update_inhRisk = Class.create();
+update_inhRisk.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	// https://www.servicenow.com/community/developer-articles/how-to-call-script-include-from-client-script-servicenow/ta-p/2313654
+
+	//Function that calculates the inh_risk value
+	updateInhRisk: function(){
+		// In code pass int_impact / int_likelihood as parameters
+		// Here are the required parameters 
+		var impact  = this.getParameter('impact');
+		var likelihood = this.getParameter('likelihood');
+		
+		var int_inh_risk = impact * likelihood;
+
+		// I create a JSON object so that I can properly return the number
+		obj = {};
+		obj.int_risk = int_inh_risk;
+		gs.info('The script Include that gets the Inh_Risk value was executed! ' + JSON.stringify(obj));
+		return JSON.stringify(obj);
+	},
+
+	// Function that changes the inh_risk from a number to Text
+	getInhRiskString : function(){
+		var int_inh_risk = parseInt(this.getParameter('intInhRisk'));
+		// works!
+
+		switch(int_inh_risk){
+			case 1: case 2:
+				inh_risk = "Low";
+			break;
+			case 3: case 4: case 6:
+				inh_risk = "Medium";
+			break;
+			case 8: case 9:
+				inh_risk = "High";
+			break;
+			case 12: case 16:
+				inh_risk = "Critical";
+			break;
+		}
+		// End of the code that should be on a seperate file
+		
+		gs.info("The returned inh_risk must be :" + inh_risk);
+		obj = {};
+		obj.text_risk = inh_risk;
+
+		return JSON.stringify(obj);
+	},
+
+    type: 'update_inhRisk'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-03 17:26:34</sys_created_on>
+        <sys_id>9396f7a03bc13210f0d15f0f23e45aa8</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>update_inhRisk</sys_name>
+        <sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0">de34e7633b34b210f0d15f0f23e45aea</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope>
+        <sys_update_name>sys_script_include_9396f7a03bc13210f0d15f0f23e45aa8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-04 16:40:08</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</application>
+        <file_path/>
+        <instance_id>54f46e2033db66947c42c7bb9d5c7b24</instance_id>
+        <instance_name>dev355227</instance_name>
+        <name>sys_script_include_9396f7a03bc13210f0d15f0f23e45aa8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1834695_risk_a_0.update_inhRisk&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;update_inhRisk&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var update_inhRisk = Class.create();
+update_inhRisk.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	// https://www.servicenow.com/community/developer-articles/how-to-call-script-include-from-client-script-servicenow/ta-p/2313654
+
+	//Function that calculates the inh_risk value
+	updateInhRisk: function(){
+		// In code pass int_impact / int_likelihood as parameters
+		// Here are the required parameters 
+		var impact  = this.getParameter('impact');
+		var likelihood = this.getParameter('likelihood');
+		
+		var int_inh_risk = impact * likelihood;
+
+		// I create a JSON object so that I can properly return the number
+		obj = {};
+		obj.int_risk = int_inh_risk;
+		gs.info('The script Include that gets the Inh_Risk value was executed! ' + JSON.stringify(obj));
+		return JSON.stringify(obj);
+	},
+
+	// Function that changes the inh_risk from a number to Text
+	getInhRiskString : function(){
+		var int_inh_risk = parseInt(this.getParameter('intInhRisk'));
+		// works!
+
+		switch(int_inh_risk){
+			case 1: case 2:
+				inh_risk = "Low";
+			break;
+			case 3: case 4: case 6:
+				inh_risk = "Medium";
+			break;
+			case 8: case 9:
+				inh_risk = "High";
+			break;
+			case 12: case 16:
+				inh_risk = "Critical";
+			break;
+		}
+		// End of the code that should be on a seperate file
+		
+		gs.info("The returned inh_risk must be :" + inh_risk);
+		obj = {};
+		obj.text_risk = inh_risk;
+
+		return JSON.stringify(obj);
+	},
+
+    type: 'update_inhRisk'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-03 17:26:34&lt;/sys_created_on&gt;&lt;sys_id&gt;9396f7a03bc13210f0d15f0f23e45aa8&lt;/sys_id&gt;&lt;sys_mod_count&gt;22&lt;/sys_mod_count&gt;&lt;sys_name&gt;update_inhRisk&lt;/sys_name&gt;&lt;sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0"&gt;de34e7633b34b210f0d15f0f23e45aea&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Risk-AB-Mock"&gt;de34e7633b34b210f0d15f0f23e45aea&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_9396f7a03bc13210f0d15f0f23e45aa8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-04 16:40:08&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1108006452</payload_hash>
+        <record_name>update_inhRisk</record_name>
+        <reverted_from/>
+        <source>a5dab0f33bf8b210f0d15f0f23e45a02</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-04 16:40:08</sys_created_on>
+        <sys_id>4577f8413b4d7210f0d15f0f23e45a5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a4fbd78760000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-04 16:40:08</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>8977f841a34d7210401b78d6d5edd45c</update_guid>
+        <update_guid_history>8977f841a34d7210401b78d6d5edd45c:1108006452,3537b441794d72100edec2d9f1195b2c:-538509471,e907b001bc4d7210f61844ded01a9691:-806545632,ae567401284d72102ad402fbc8df7a2f:-1327312878,3b26bc85730d72107484b489bbfdcbbd:-513739861,b2feec856c0d721046005e9ee21a82f9:-1333858413,36de6885d90d72107a5765b4b28607f9:-826321054,88aea485cd0d72106b388c25599ef62d:-2004279010,957ee085e40d72106d737b86b20951ee:1116629797,2a3e2445460d72101da7fc9dbef861b3:-530835992,a3adac05370d7210b7ec0318be153178:-1565493877,fef6e00d50c972104d8fbde2e5228e5b:-821047133,fec1204566c97210823e2b5aa8b25c0c:744581171,90c028c114c97210b4f645d6271c90e8:-113850273,61bf14411ec97210a3855feb1f89cdac:1119289638,c6f960f4ebc5321094fa59d5931162c1:-1500106468,15e960f08dc53210abe8d9f2cc522c22:1178649219,f8600430a305321071af6892549a61f8:-1500106468,aeeef3ac4ac1321069a9108a44a8f2a2:607168318,0fbdfb2c0dc13210f52dfc15769a4bb0:-1465986895,a5cc3be883c1321023b4c8a09d8ab0b2:283253217,579bbf68f9c132101bdb757dab9fee9a:-570936165,7f78bf6488c1321035583063e53c60c7:1033830937</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-04 16:41:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>000b73c23bf244d0bba12dddcfbb7904</sys_id>
+        <sys_metadata>9396f7a03bc13210f0d15f0f23e45aa8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>update_inhRisk</sys_name>
+        <sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0">de34e7633b34b210f0d15f0f23e45aea</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope>
+        <sys_scope_delete display_value="">89fdb173925f477d9e2d96d2fe3f1219</sys_scope_delete>
+        <sys_update_name>sys_script_include_9396f7a03bc13210f0d15f0f23e45aa8</sys_update_name>
+        <sys_update_version display_value="sys_script_include_9396f7a03bc13210f0d15f0f23e45aa8">4577f8413b4d7210f0d15f0f23e45a5d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-04 16:41:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
