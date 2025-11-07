@@ -4,13 +4,13 @@
             <element>impact</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-04 18:12:24</sys_created_on>
-            <sys_id>fc9c418d3b8d7210f0d15f0f23e45aca</sys_id>
+            <sys_created_on>2025-11-07 15:37:41</sys_created_on>
+            <sys_id>abe5440a3bc1b210f0d15f0f23e45a0c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Impact and Likelihood of a Risk" display_value="Impact and Likelihood of a Risk" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">bf28c0733bf4b210f0d15f0f23e45af4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-04 18:12:24</sys_updated_on>
+            <sys_updated_on>2025-11-07 15:37:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>inh_risk</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-04 18:12:24</sys_created_on>
-            <sys_id>b89c418d3b8d7210f0d15f0f23e45acb</sys_id>
+            <sys_created_on>2025-11-07 15:37:41</sys_created_on>
+            <sys_id>23e5440a3bc1b210f0d15f0f23e45a0d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Impact and Likelihood of a Risk" display_value="Impact and Likelihood of a Risk" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">bf28c0733bf4b210f0d15f0f23e45af4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-04 18:12:24</sys_updated_on>
+            <sys_updated_on>2025-11-07 15:37:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-04 18:12:24</sys_created_on>
-            <sys_id>309c418d3b8d7210f0d15f0f23e45acc</sys_id>
+            <sys_created_on>2025-11-07 15:37:41</sys_created_on>
+            <sys_id>a7e5440a3bc1b210f0d15f0f23e45a0d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Impact and Likelihood of a Risk" display_value="Impact and Likelihood of a Risk" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">bf28c0733bf4b210f0d15f0f23e45af4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-04 18:12:24</sys_updated_on>
+            <sys_updated_on>2025-11-07 15:37:41</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,13 +46,55 @@
             <element>likelihood</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-04 18:12:24</sys_created_on>
-            <sys_id>b49c418d3b8d7210f0d15f0f23e45acc</sys_id>
+            <sys_created_on>2025-11-07 15:37:41</sys_created_on>
+            <sys_id>2fe5440a3bc1b210f0d15f0f23e45a0d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Impact and Likelihood of a Risk" display_value="Impact and Likelihood of a Risk" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">bf28c0733bf4b210f0d15f0f23e45af4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-04 18:12:24</sys_updated_on>
+            <sys_updated_on>2025-11-07 15:37:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-07 15:37:41</sys_created_on>
+            <sys_id>a3e5440a3bc1b210f0d15f0f23e45a0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Impact and Likelihood of a Risk" display_value="Impact and Likelihood of a Risk" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">bf28c0733bf4b210f0d15f0f23e45af4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-07 15:37:41</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mitigation_plans</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-07 15:37:41</sys_created_on>
+            <sys_id>2be5440a3bc1b210f0d15f0f23e45a0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Impact and Likelihood of a Risk" display_value="Impact and Likelihood of a Risk" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">bf28c0733bf4b210f0d15f0f23e45af4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-07 15:37:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>business_impact</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-07 15:37:41</sys_created_on>
+            <sys_id>afe5440a3bc1b210f0d15f0f23e45a0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Impact and Likelihood of a Risk" display_value="Impact and Likelihood of a Risk" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">bf28c0733bf4b210f0d15f0f23e45af4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-07 15:37:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

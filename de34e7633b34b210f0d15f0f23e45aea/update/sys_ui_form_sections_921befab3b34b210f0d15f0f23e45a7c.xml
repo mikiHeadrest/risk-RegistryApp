@@ -38,7 +38,7 @@
             <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1834695_risk_a_0_risk_details" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">921befab3b34b210f0d15f0f23e45a7c</sys_ui_form>
-            <sys_ui_section caption="Meassure the Risk" display_value="Meassure the Risk" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">bf28c0733bf4b210f0d15f0f23e45af4</sys_ui_section>
+            <sys_ui_section caption="Impact and Likelihood of a Risk" display_value="Impact and Likelihood of a Risk" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">bf28c0733bf4b210f0d15f0f23e45af4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-10-31 16:02:00</sys_updated_on>
         </sys_ui_form_section>
@@ -52,9 +52,23 @@
             <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1834695_risk_a_0_risk_details" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">921befab3b34b210f0d15f0f23e45a7c</sys_ui_form>
-            <sys_ui_section caption="Risk Information" display_value="Risk Information" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">0222843b3bb4b210f0d15f0f23e45a5c</sys_ui_section>
+            <sys_ui_section caption="Categories and Risk Status" display_value="Categories and Risk Status" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">0222843b3bb4b210f0d15f0f23e45a5c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-10-31 16:01:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-07 15:42:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c27cc4a3bc1b210f0d15f0f23e45aa8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1834695_risk_a_0_risk_details" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">921befab3b34b210f0d15f0f23e45a7c</sys_ui_form>
+            <sys_ui_section caption="Reference Existing Risks" display_value="Reference Existing Risks" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">b427cc4a3bc1b210f0d15f0f23e45a4d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-07 15:42:58</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1834695_risk_a_0_risk_details</name>

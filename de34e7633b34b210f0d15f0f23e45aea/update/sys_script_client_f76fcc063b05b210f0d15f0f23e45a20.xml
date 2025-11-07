@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>reference_annotation</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//g_form.hideAnnotation('separator_top'); (hideAnnotation not working)
+	
+   if(g_form.isNewRecord()){
+	// if the template is a newRecord it hides some fields
+	g_form.setDisplay('risk_parents',false);
+	g_form.setDisplay('risk_references',false);
+	// g_form.showFieldMsg('risk_references','Disabled because this is a new entry.. ','info');
+   }
+   else{
+	// I can't access to the DOM, it will never work
+
+	// disable Annotation
+	myDocument.getElementsByClassName("annotation-row")[0].style.display="none";
+	
+	// this If - statement verifies if the Script
+	// - Ran on a UI page 
+	// - Ran on a ServNow portal page 
+// 	if(window){
+// 		g_form.showFieldMsg('uid','On UI Page');
+// 		try{
+// 			annotation = document.getElementsByClassName('annotation');
+// 			g_form.showFieldMsg('uid','This is an attempt at enteing here');
+// 			for(var i = 0; annotation.length(); i++){
+// 				// disables all annotations
+// 				annotation[i].style.display = 'none';
+// 				g_form.showFieldMsg('uid','Number: ' + (i+1));
+// 			}
+// 			g_form.showFieldMsg('uid','This is the lenght of annotation' + annotation.lenght());
+// 		}
+// 		catch(error){
+// 			g_form.showFieldMsg('uid','there was an error');
+// 		}
+// 	}
+// 	else{
+// 		// Case when form is being loaded on the Service Now portal
+// 		annotation = g_document.getElement('#reference_annotation');
+// 		annotation.style.display = 'none';
+// 	}
+   }
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-07 16:22:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f76fcc063b05b210f0d15f0f23e45a20</sys_id>
+        <sys_mod_count>60</sys_mod_count>
+        <sys_name>reference_annotation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Risk-AB-Mock" source="x_1834695_risk_a_0">de34e7633b34b210f0d15f0f23e45aea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope>
+        <sys_update_name>sys_script_client_f76fcc063b05b210f0d15f0f23e45a20</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-07 20:09:55</sys_updated_on>
+        <table>x_1834695_risk_a_0_risk_details</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

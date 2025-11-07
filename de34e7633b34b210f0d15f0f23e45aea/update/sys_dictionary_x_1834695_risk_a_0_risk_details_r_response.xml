@@ -5,7 +5,7 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>2</choice>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Risk Response</column_label>
@@ -28,7 +28,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="Integer">integer</internal_type>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_1834695_risk_a_0_risk_details</name>
         <next_element/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Risk-AB-Mock">de34e7633b34b210f0d15f0f23e45aea</sys_scope>
         <sys_update_name>sys_dictionary_x_1834695_risk_a_0_risk_details_r_response</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-04 18:26:31</sys_updated_on>
+        <sys_updated_on>2025-11-07 15:42:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

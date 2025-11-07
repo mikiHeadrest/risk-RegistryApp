@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Categories and Risk Status" section_id="0222843b3bb4b210f0d15f0f23e45a5c" sys_domain="global" table="x_1834695_risk_a_0_risk_details" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>risk_classification</element>
+            <element>risk_status</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-04 19:01:44</sys_created_on>
-            <sys_id>57d7554d3bcd7210f0d15f0f23e45ae2</sys_id>
+            <sys_created_on>2025-11-07 15:28:02</sys_created_on>
+            <sys_id>4eb304463bc1b210f0d15f0f23e45a24</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Categories and Risk Status" display_value="Categories and Risk Status" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">0222843b3bb4b210f0d15f0f23e45a5c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-04 19:01:44</sys_updated_on>
+            <sys_updated_on>2025-11-07 15:28:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>r_response</element>
+            <element>risk_classification</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-04 19:01:44</sys_created_on>
-            <sys_id>dbd7554d3bcd7210f0d15f0f23e45ae2</sys_id>
+            <sys_created_on>2025-11-07 15:28:02</sys_created_on>
+            <sys_id>c2b304463bc1b210f0d15f0f23e45a25</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Categories and Risk Status" display_value="Categories and Risk Status" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">0222843b3bb4b210f0d15f0f23e45a5c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-04 19:01:44</sys_updated_on>
+            <sys_updated_on>2025-11-07 15:28:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,41 +32,41 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-04 19:01:44</sys_created_on>
-            <sys_id>53d7554d3bcd7210f0d15f0f23e45ae3</sys_id>
+            <sys_created_on>2025-11-07 15:28:02</sys_created_on>
+            <sys_id>4ab304463bc1b210f0d15f0f23e45a25</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Categories and Risk Status" display_value="Categories and Risk Status" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">0222843b3bb4b210f0d15f0f23e45a5c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-04 19:01:44</sys_updated_on>
+            <sys_updated_on>2025-11-07 15:28:02</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>risk_subcategory</element>
+            <element>r_response</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-04 19:01:44</sys_created_on>
-            <sys_id>d7d7554d3bcd7210f0d15f0f23e45ae3</sys_id>
+            <sys_created_on>2025-11-07 15:28:02</sys_created_on>
+            <sys_id>ceb304463bc1b210f0d15f0f23e45a25</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Categories and Risk Status" display_value="Categories and Risk Status" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">0222843b3bb4b210f0d15f0f23e45a5c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-04 19:01:44</sys_updated_on>
+            <sys_updated_on>2025-11-07 15:28:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>risk_status</element>
+            <element>risk_subcategory</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-04 19:01:44</sys_created_on>
-            <sys_id>5fd7554d3bcd7210f0d15f0f23e45ae3</sys_id>
+            <sys_created_on>2025-11-07 15:28:02</sys_created_on>
+            <sys_id>46b304463bc1b210f0d15f0f23e45a26</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Categories and Risk Status" display_value="Categories and Risk Status" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">0222843b3bb4b210f0d15f0f23e45a5c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-04 19:01:44</sys_updated_on>
+            <sys_updated_on>2025-11-07 15:28:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
