@@ -1,28 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Risk Details" section_id="b7646f633b34b210f0d15f0f23e45a66" sys_domain="global" table="x_1834695_risk_a_0_risk_details" version="3" view="">
-        <sys_ui_annotation action="INSERT_OR_UPDATE">
-            <is_plain_text>true</is_plain_text>
-            <name>separator_top</name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-07 19:48:43</sys_created_on>
-            <sys_id>3c6ff8463b09b210f0d15f0f23e45a57</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-07 19:48:43</sys_updated_on>
-            <text/>
-            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
-        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>risk_entry_status</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-07 19:48:44</sys_created_on>
-            <sys_id>346ff8463b09b210f0d15f0f23e45a60</sys_id>
+            <sys_created_on>2025-11-07 20:44:16</sys_created_on>
+            <sys_id>9e1c09863b49b210f0d15f0f23e45a02</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Risk Details" display_value="Risk Details" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">b7646f633b34b210f0d15f0f23e45a66</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-07 19:48:44</sys_updated_on>
+            <sys_updated_on>2025-11-07 20:44:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -30,13 +18,13 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-07 19:48:44</sys_created_on>
-            <sys_id>3c6ff8463b09b210f0d15f0f23e45a60</sys_id>
+            <sys_created_on>2025-11-07 20:44:16</sys_created_on>
+            <sys_id>961c09863b49b210f0d15f0f23e45a03</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Risk Details" display_value="Risk Details" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">b7646f633b34b210f0d15f0f23e45a66</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-07 19:48:44</sys_updated_on>
+            <sys_updated_on>2025-11-07 20:44:16</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -44,13 +32,13 @@
             <element>implementation_progress</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-07 19:48:44</sys_created_on>
-            <sys_id>346ff8463b09b210f0d15f0f23e45a61</sys_id>
+            <sys_created_on>2025-11-07 20:44:16</sys_created_on>
+            <sys_id>9e1c09863b49b210f0d15f0f23e45a03</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Risk Details" display_value="Risk Details" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">b7646f633b34b210f0d15f0f23e45a66</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-07 19:48:44</sys_updated_on>
+            <sys_updated_on>2025-11-07 20:44:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -58,97 +46,97 @@
             <element>.end_split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-07 19:48:44</sys_created_on>
-            <sys_id>3c6ff8463b09b210f0d15f0f23e45a61</sys_id>
+            <sys_created_on>2025-11-07 20:44:16</sys_created_on>
+            <sys_id>961c09863b49b210f0d15f0f23e45a04</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Risk Details" display_value="Risk Details" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">b7646f633b34b210f0d15f0f23e45a66</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-07 19:48:44</sys_updated_on>
+            <sys_updated_on>2025-11-07 20:44:16</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>3c6ff8463b09b210f0d15f0f23e45a57</element>
+            <element>.begin_split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-07 19:48:44</sys_created_on>
-            <sys_id>346ff8463b09b210f0d15f0f23e45a62</sys_id>
+            <sys_created_on>2025-11-07 20:44:16</sys_created_on>
+            <sys_id>9e1c09863b49b210f0d15f0f23e45a04</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Risk Details" display_value="Risk Details" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">b7646f633b34b210f0d15f0f23e45a66</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-07 19:48:44</sys_updated_on>
-            <sys_user/>
-            <type>annotation</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-07 19:48:44</sys_created_on>
-            <sys_id>f06ff8463b09b210f0d15f0f23e45a6f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Risk Details" display_value="Risk Details" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">b7646f633b34b210f0d15f0f23e45a66</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-07 19:48:44</sys_updated_on>
+            <sys_updated_on>2025-11-07 20:44:16</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>uid</element>
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-07 19:48:44</sys_created_on>
-            <sys_id>f86ff8463b09b210f0d15f0f23e45a6f</sys_id>
+            <sys_created_on>2025-11-07 20:44:16</sys_created_on>
+            <sys_id>961c09863b49b210f0d15f0f23e45a05</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Risk Details" display_value="Risk Details" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">b7646f633b34b210f0d15f0f23e45a66</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-07 19:48:44</sys_updated_on>
+            <sys_updated_on>2025-11-07 20:44:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>name</element>
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-07 19:48:44</sys_created_on>
-            <sys_id>f06ff8463b09b210f0d15f0f23e45a70</sys_id>
+            <sys_created_on>2025-11-07 20:44:16</sys_created_on>
+            <sys_id>9e1c09863b49b210f0d15f0f23e45a05</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Risk Details" display_value="Risk Details" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">b7646f633b34b210f0d15f0f23e45a66</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-07 19:48:44</sys_updated_on>
+            <sys_updated_on>2025-11-07 20:44:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-07 19:48:44</sys_created_on>
-            <sys_id>f86ff8463b09b210f0d15f0f23e45a70</sys_id>
+            <sys_created_on>2025-11-07 20:44:16</sys_created_on>
+            <sys_id>961c09863b49b210f0d15f0f23e45a06</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Risk Details" display_value="Risk Details" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">b7646f633b34b210f0d15f0f23e45a66</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-07 19:48:44</sys_updated_on>
+            <sys_updated_on>2025-11-07 20:44:16</sys_updated_on>
             <sys_user/>
             <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>risk_type</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-07 20:44:16</sys_created_on>
+            <sys_id>9e1c09863b49b210f0d15f0f23e45a06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Details" display_value="Risk Details" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">b7646f633b34b210f0d15f0f23e45a66</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-07 20:44:16</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-07 19:48:44</sys_created_on>
-            <sys_id>f06ff8463b09b210f0d15f0f23e45a71</sys_id>
+            <sys_created_on>2025-11-07 20:44:16</sys_created_on>
+            <sys_id>961c09863b49b210f0d15f0f23e45a07</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Risk Details" display_value="Risk Details" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">b7646f633b34b210f0d15f0f23e45a66</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-07 19:48:44</sys_updated_on>
+            <sys_updated_on>2025-11-07 20:44:16</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -156,13 +144,13 @@
             <element>description</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-07 19:48:44</sys_created_on>
-            <sys_id>f86ff8463b09b210f0d15f0f23e45a71</sys_id>
+            <sys_created_on>2025-11-07 20:44:16</sys_created_on>
+            <sys_id>9e1c09863b49b210f0d15f0f23e45a07</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Risk Details" display_value="Risk Details" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">b7646f633b34b210f0d15f0f23e45a66</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-07 19:48:44</sys_updated_on>
+            <sys_updated_on>2025-11-07 20:44:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -170,13 +158,13 @@
             <element>notes_comments</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-11-07 19:48:44</sys_created_on>
-            <sys_id>f06ff8463b09b210f0d15f0f23e45a72</sys_id>
+            <sys_created_on>2025-11-07 20:44:16</sys_created_on>
+            <sys_id>961c09863b49b210f0d15f0f23e45a08</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Risk Details" display_value="Risk Details" name="x_1834695_risk_a_0_risk_details" sys_domain="global" view="Default view">b7646f633b34b210f0d15f0f23e45a66</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-11-07 19:48:44</sys_updated_on>
+            <sys_updated_on>2025-11-07 20:44:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

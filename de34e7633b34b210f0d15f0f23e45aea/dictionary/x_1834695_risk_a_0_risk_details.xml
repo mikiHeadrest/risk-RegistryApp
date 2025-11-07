@@ -42,6 +42,12 @@
         <element display="true" label="UID" mandatory="true" max_length="400" name="uid" type="string"/>
         <element label="Name" mandatory="true" max_length="400" name="name" type="string"/>
         <element label="Risk Parents" max_length="40" name="risk_parents" reference="x_1834695_risk_a_0_risk_details" type="glide_list"/>
+        <element choice="1" default="2" label="Risk Type" max_length="40" name="risk_type" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Level 2 - Risk Statement" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Level 1 - Risk Category" sequence="0" value="1"/>
+            </choice>
+        </element>
         <element choice="1" label="Risk Response" max_length="40" name="r_response" type="integer">
             <choice>
                 <element inactive_on_update="false" label="Accept" sequence="3" value="4"/>
@@ -80,6 +86,7 @@
                 <element inactive_on_update="false" label="High" sequence="2" value="High"/>
             </choice>
         </element>
+        <element label="Sub type" max_length="40" name="sub_type" type="integer"/>
         <index name="index">
             <element name="r_manager"/>
         </index>
